@@ -137,7 +137,7 @@ vector<double> Modelwifi4(int numUsers,int numPackets){
     } catch(const exception& e){
         cerr<<"modeling Error: "<<e.what()<<endl;
     }
-    return vector<double>{0.0, 0.0};
+    return vector<double>{0.0, 0.0,0.0};
    
 }
 #endif
